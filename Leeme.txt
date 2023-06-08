@@ -1,0 +1,20 @@
+--------------------------------------
+Simulacion de Eventos Discretos - TP 2
+Julio Kriger (207/96)
+jkriger@dc.uba.ar
+--------------------------------------
+
+Estructura del disco:
+
+\Leeme.txt --> este archivo.
+\tp2.pdf --> documento de esta nueva version del TP2
+\tp2.zip --> archivo zip que contiene los scripts y modelos de la nueva version. Al unzipear el archivo se formara la siguiente estructura de directorio:
+
+	\cd++ : contiene el archivos "makefile" y todos los ".CPP" y ".h" necesarios para compilar el simulador. Solohace falta agregar a este directorio el archivo "libsimu.a" correspondiente para la plataforma (Windows, Linux, Solaris) donde se quiere usar el simulador.
+	\cd++\BRW : contiene los archivos ".CPP" y ".h" propios del modelo BRW. Estos son necesarios para la generacion del simulador.
+	\cd++\Modelo : contiene los nuevos archivo ".ma" correspondientes para la primera parte del trabajo. Contiene el archivo de eventos "brw.ev".
+	\cd++\Modelo2 : contiene los nuevos archivo ".ma" correspondientes para la segunda parte del trabajo. Contiene el archivo de eventos "brw.ev".
+	\cd++\TestResults : contiene los resultados de la ejecucion de los modelos encontrados en "\cd++\Modelo".
+	\cd++\TestResults2 : contiene los resultados de la ejecucion de los modelos encontrados en "\cd++\Modelo2".
+	\cd++\TestScripts : contiene todos los scripts para testear los modelos encontrados en "\cd++\Modelo".
+	\cd++\TestScripts2 : contiene todos los scripts para testear los modelos encontrados en "\cd++\Modelo2".
